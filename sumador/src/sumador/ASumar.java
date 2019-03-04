@@ -43,6 +43,27 @@ public class ASumar {
 		}else {
 			return ("");
 		}
-
 	}
+	
+	/**
+	 * Método que suma los digitos de un número y muestra los números sumados y el resultado de la suma
+	 * @author Salvador Galindo Martínez
+	 * @version 1.0
+	 * @return 
+	 */
+	public String total() {
+		int suma = 0;
+		String fin = "";
+		for(int i = 0; i < valorInicial.length(); i++) {
+			String digito = valorInicial.substring(i, i+1);
+			suma += Integer.parseInt(digito);
+			if (i < 1) {
+				fin += digito;
+			}else {
+				fin += " + " + digito;
+			}
+		}
+		return (fin + " = " + suma);
+	}
+	
 }

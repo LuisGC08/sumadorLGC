@@ -8,11 +8,14 @@ public class ASumar {
 		this.valorInicial = string;
 	}
 	
-	public String mostrar() {
+	
+	public String mostrarNegativo() {
 		String numero = valorInicial;
-		if (numero.length() == 1) {
+		if (Integer.parseInt(numero) > 0) {
 			return (numero + " = " + numero);
+		}else {
+			return ("");
 		}
-		return ("Número incorrecto");
+
 	}
 }

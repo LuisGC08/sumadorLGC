@@ -3,12 +3,20 @@ package sumador;
 public class ASumar {
 	
 	String valorInicial;
-	
+	/**
+	 * Método constructor para almacenar la variable
+	 * @author Luis Garcia Clavel
+	 * @param string
+	 * @version 1.0
+	 */
 	public ASumar(String string) {
 		this.valorInicial = string;
 	}
 	
-	
+	/**
+	 * Método que suma los digitos de un número y muestra los números sumados y el resultado de la suma
+	 * @return 
+	 */
 	public String total() {
 		int suma = 0;
 		String fin = "";
@@ -23,4 +31,4 @@ public class ASumar {
 		}
 		return (fin + " = " + suma);
 	}
-}}
+}

@@ -5,7 +5,7 @@ public class ASumar {
 	String valorInicial;
 	/**
 	 * Método constructor para almacenar la variable
-	 * @author Salvador Galindo Martínez
+	 * @author Luis Garcia Clavel
 	 * @param string
 	 * @version 1.0
 	 */
@@ -16,8 +16,6 @@ public class ASumar {
 	/**
 	 * Método que muestra una cadena de texto vacía si el número introducido
 	 * es negativo.
-	 * @author Luis Garcia Clavel
-	 * @version 1.0
 	 * @return 
 	 */
 	public String mostrarNegativo() {
